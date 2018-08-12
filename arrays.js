@@ -7,7 +7,7 @@
  accessElementInArray = (array, index) => array[index]
 
  destructivelyRemoveElementFromBeginningOfArray = (array) => {
-   array.shif()
+   array.shift()
    return array
  }
 
