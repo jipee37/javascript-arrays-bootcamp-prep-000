@@ -9,10 +9,10 @@
 
  accessElementInArray = (array, index) => array[index]
 
- /*destructivelyRemoveElementFromBeginningOfArray = (array) => {
+ destructivelyRemoveElementFromBeginningOfArray = (array) => {
    array.shift()
    return array
- }*/
+ }
 
  //removeElementFromEndOfArray = (array) => array.slice(1)
 
