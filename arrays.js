@@ -2,7 +2,10 @@
 
  addElementToBeginningOfArray = (array, element) => [element, ...array]
 
- destructivelyAddElementToBeginningOfArray = (array, element) => array.unshift(element)
+ destructivelyAddElementToBeginningOfArray = (array, element) => {
+   array.unshift(element)
+   return array
+ }
 
  //accessElementInArray = (array, index) => array[index]
 
