@@ -11,7 +11,7 @@
    return array
  }
 
- //removeElementFromEndOfArray = (array) => array.slice(1)
+ removeElementFromEndOfArray = (array) => array.slice(1)
 
  /*destructivelyRemoveElementFromEndOfArray = (array) => {
    array.pop()
