@@ -4,12 +4,12 @@
 
  destructivelyAddElementToBeginningOfArray = (array, element) => array.unshift(element)
 
- //accessElementInArray = (array, index) => array[index]
+ accessElementInArray = (array, index) => array[index]
 
- /*destructivelyRemoveElementFromBeginningOfArray = (array) => {
+ destructivelyRemoveElementFromBeginningOfArray = (array) => {
    array.shif()
    return array
- }*/
+ }
 
  //removeElementFromEndOfArray = (array) => array.slice(1)
 
